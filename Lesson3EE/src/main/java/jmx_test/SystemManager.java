@@ -12,4 +12,8 @@ public class SystemManager implements SystemManagerMBean {
         System.out.println("set threadCount:" + threadCount);
         this.threadCount = threadCount;
     }
+
+    public void dosomething() {
+        System.out.println("test111111");
+    }
 }
