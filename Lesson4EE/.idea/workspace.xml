@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="124fa74f-753b-47d0-8fbe-17977afae495" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/client_manager_system/ClientMSExecutorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson5EE/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson5EE/src/main/java/reflection/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson5EE/src/main/java/reflection/UserSystemManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/client_manager_system/ClienManagerSystemExecutor.java" afterPath="$PROJECT_DIR$/src/main/java/client_manager_system/ClienManagerSystemExecutor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/client_manager_system/Client.java" afterPath="$PROJECT_DIR$/src/main/java/client_manager_system/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/client_manager_system/ClientTask.java" afterPath="$PROJECT_DIR$/src/main/java/client_manager_system/ClientTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson5EE/target/classes/reflection/UserSystemManager.class" afterPath="$PROJECT_DIR$/../Lesson5EE/target/classes/reflection/UserSystemManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson5EE/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lesson5EE/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson5EE/src/main/java/reflection/UserSystemManager.java" afterPath="$PROJECT_DIR$/../Lesson5EE/src/main/java/reflection/UserSystemManager.java" />
     </list>
     <ignored path="Lesson4EE.iws" />
     <ignored path=".idea/workspace.xml" />

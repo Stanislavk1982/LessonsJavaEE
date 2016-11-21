@@ -1,5 +1,8 @@
 package reflection;
 
+import sun.misc.Unsafe;
+
+import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
@@ -33,18 +36,24 @@ public class UserSystemManager {
 //        System.out.println(user);
 
 
-        String test ="test";
+        String test = "test";
         System.out.println(test.hashCode());
-        test=test.concat("_xxxx");
-        System.out.println("str value= "+test+"      hc:"+ test.hashCode());
+        test = test.concat("_xxxx");
+        System.out.println("str value= " + test + "      hc:" + test.hashCode());
 
         //case with reflection
         test = "test";
         System.out.println(test.hashCode());
         Field value = test.getClass().getDeclaredField("value");
         value.setAccessible(true);
-        value.set(test,"test_xxx".toCharArray());
-        System.out.println("str value= "+test+"      hc:"+ test.hashCode());
+        value.set(test, "test_xxx".toCharArray());
+        System.out.println("str value= " + test + "      hc:" + test.hashCode());
+
+        Field theUnsafe = Unsafe.class.getDeclaredField("theUnsafe");
+        theUnsafe.setAccessible(true);
+        Object o = theUnsafe.get(null);
+        Unsafe  unsafe = (Unsafe)o;
+        unsafe.throwException(new IOException("SJHFJGDHGHD"));
 
 
     }
