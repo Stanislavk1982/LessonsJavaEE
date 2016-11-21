@@ -35,6 +35,7 @@ public class User {
     }
 
     @Override
+    @UserAnatation (companyName = "zzz")
     public String toString() {
         return "User{" +
                 "name='" + name + '\'' +
