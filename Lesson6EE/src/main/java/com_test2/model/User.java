@@ -1,10 +1,16 @@
-package reflection;
+package com_test2.model;
 
-@UserRoleAnatation(value = Role.USER)
 public class User {
     private String name;
     private int age;
-    private String sureName;
+
+    public User() {
+    }
+
+    public User(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 
     public String getName() {
         return name;
@@ -22,20 +28,11 @@ public class User {
         this.age = age;
     }
 
-    public String getSureName() {
-        return sureName;
-    }
-
-    public void setSureName(String sureName) {
-        this.sureName = sureName;
-    }
-
     @Override
     public String toString() {
         return "User{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
-                ", sureName='" + sureName + '\'' +
                 '}';
     }
 }
