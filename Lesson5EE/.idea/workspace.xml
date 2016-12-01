@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="461e0fd9-3312-41cf-96f4-b9706f2f2a6c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/com_test2/UserManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/com_test2/model/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/com_test2/repo/UserRepo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/com_test2/repo/UserRepoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/com_test2/repo/UserRepoImpl2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/com_test2/service/UserService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/com_test2/service/UserServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/reflection/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/reflection/UserRole.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/java/calculatorTest/Calculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/java/com_test2/UserManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/java/com_test2/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/java/com_test2/repo/UserRepo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/java/com_test2/repo/UserRepoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/java/com_test2/repo/UserRepoImpl2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/java/com_test2/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/java/com_test2/service/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/resources/spring-anotation-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/test/java/CalculatorTest/CalculatorFunctionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/spring-anotation-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson6EE/target/classes/com_test/service/UserServiceImpl.class" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/com_test/service/UserServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson4EE/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lesson4EE/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/reflection/User.java" afterPath="$PROJECT_DIR$/src/main/java/reflection/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/reflection/UserSystemManager.java" afterPath="$PROJECT_DIR$/src/main/java/reflection/UserSystemManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson6EE/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lesson6EE/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson6EE/Lesson6EE.iml" afterPath="$PROJECT_DIR$/../Lesson6EE/Lesson6EE.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson6EE/pom.xml" afterPath="$PROJECT_DIR$/../Lesson6EE/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson6EE/src/main/java/com_test/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/java/com_test/service/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson6EE/src/main/resources/spring-context.xml" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/resources/spring-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson6EE/target/classes/spring-context.xml" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/spring-context.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/reflection/UserAnatation.java" afterPath="$PROJECT_DIR$/src/main/java/reflection/UserRoleAnatation.java" />
     </list>
     <ignored path="Lesson5EE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -741,7 +707,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />

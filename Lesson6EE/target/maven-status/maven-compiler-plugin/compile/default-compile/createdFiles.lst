@@ -1,0 +1,14 @@
+com_test2\UserManager.class
+com_test2\service\UserServiceImpl.class
+com_test\service\UserService.class
+com_test\repo\UserRepoImpl.class
+com_test2\model\User.class
+calculatorTest\Calculator.class
+com_test\repo\UserRepo.class
+com_test\UserManager.class
+com_test2\repo\UserRepo.class
+com_test2\service\UserService.class
+com_test2\repo\UserRepoImpl.class
+com_test\service\UserServiceImpl.class
+com_test\model\User.class
+com_test2\repo\UserRepoImpl2.class

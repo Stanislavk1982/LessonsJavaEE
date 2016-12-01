@@ -1,11 +1,13 @@
 package CalculatorTest;
 
 import calculatorTest.Calculator;
+import custom_runner.CustomRunner;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
@@ -16,7 +18,7 @@ import java.util.List;
 
 import static org.mockito.Mockito.*;
 
-@RunWith(JUnit4.class)
+@RunWith(CustomRunner.class)
 public class CalculatorFunctionTest {
 
 
@@ -48,6 +50,7 @@ public class CalculatorFunctionTest {
     }
 
 
+
     @Test
     public void spy_collection_test() {
         List<Integer> integers = new ArrayList<Integer>(Arrays.asList(1, 2, 3, 4, 5, 6, 9, 1, 2));
@@ -57,7 +60,14 @@ public class CalculatorFunctionTest {
         Integer firstIntegerElement = spy.get(0);
         Assert.assertTrue(firstIntegerElement==-1000);
         Integer secondElement = spy.get(1);
-        Assert.assertTrue(secondElement==3);
+       Assert.assertTrue(secondElement==3);
+    }
+
+    @Test
+    public void add_out_variables_test() {
+        Calculator calculator = new Calculator();
+        int summa = calculator.add(1,4);
+        Assert.assertEquals(summa,5);
     }
 
 
