@@ -8,18 +8,49 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.RunnableFuture;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class ClienManagerSystemExecutor extends ThreadPoolExecutor {
 
-    public Map<ClientRunnableEntry, Object> clientInProgressMap = new ConcurrentHashMap();
-
+    private Map<ClientRunnableEntry, Object> clientInProgressMap = new ConcurrentHashMap();
     private BlockingQueue<ClientRunnableEntry> waitClientQueue = new LinkedBlockingQueue();
+    private ReentrantLock lock = new ReentrantLock();
 
 
-    public ClienManagerSystemExecutor(int corePoolSize, int maximumPoolSize, long keepAliveTime,
-                                      TimeUnit unit, BlockingQueue<Runnable> workQueue) {
+
+    public ClienManagerSystemExecutor() {
         super(4, 4, 0, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<Runnable>());
     }
+
+    @Override
+    protected void afterExecute(Runnable r, Throwable t) {
+        try {
+            lock.lock();
+            Object client = null;
+            ClientRunnableEntry clientInProgress = null;
+            for (ClientRunnableEntry clientRunnableEntry : clientInProgressMap.keySet()) {
+                if (r.equals(clientRunnableEntry.getRf())) {
+                    client = clientRunnableEntry.client;
+                    clientInProgress = clientRunnableEntry;
+                    clientInProgressMap.remove(clientInProgress);
+                    System.out.println("remove from main clientMAP->" + client);
+                    break;
+                }
+            }
+
+            for (ClientRunnableEntry clientInWait : waitClientQueue) {
+                if (clientInWait.equals(clientInProgress)) {
+                    waitClientQueue.remove(clientInWait);
+                    clientInProgressMap.put(clientInWait, client);
+                    System.out.println("remote from queue->" + client);
+                    execute(clientInWait.getRf());
+                }
+            }
+        } finally {
+            lock.unlock();
+        }
+    }
+
 
     @Override
     public <T> Future<T> submit(Runnable task, T result) {
@@ -36,10 +67,7 @@ public class ClienManagerSystemExecutor extends ThreadPoolExecutor {
         return ftask;
     }
 
-    @Override
-    protected void afterExecute(Runnable r, Throwable t) {
-        super.afterExecute(r, t);
-    }
+
 
     class ClientRunnableEntry<T> {
         private RunnableFuture rf;
