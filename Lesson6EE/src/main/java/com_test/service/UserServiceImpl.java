@@ -9,6 +9,10 @@ public class UserServiceImpl implements UserService {
 
     private UserRepo userRepo1;
 
+    public UserServiceImpl(UserRepo userRepo1) {
+        this.userRepo1 = userRepo1;
+    }
+
     public List<User> getAllUsers() {
         return userRepo1.getAllUsers();
     }

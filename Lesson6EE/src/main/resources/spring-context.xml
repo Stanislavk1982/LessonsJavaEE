@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
-      xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+      xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+      http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
-    <!--<bean name="userService" class="com_test.service.UserServiceImpl">-->
-        <!--<property name="userRepo1" ref="userRepo1"/>-->
-    <!--</bean>-->
+    <bean name="userService" class="com_test.service.UserServiceImpl">
+        <constructor-arg index="0" ref="userRepo1"/>
+        <!--<property name="userRepo2" ref="userRepo1"/>-->
+    </bean>
 
     <bean name="userRepo1" class="com_test.repo.UserRepoImpl"/>
-    <bean name="userService" autowire="byType" class="com_test.service.UserServiceImpl"/>
+    <!--&lt;!&ndash;<bean name="userRepo2" class="com_test.repo.UserRepoImpl2"/>&ndash;&gt;-->
+    <!--<bean name="userService" autowire="byName" class="com_test.service.UserServiceImpl"/>-->
 
 </beans>
