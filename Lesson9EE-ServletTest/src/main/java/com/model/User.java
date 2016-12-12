@@ -2,20 +2,35 @@ package com.model;
 
 public class User {
 
-    private String Name;
+    private String name;
     private int age;
+    private String password;
 
     public User(String name, int age) {
-        Name = name;
+        this.name = name;
         this.age = age;
     }
 
+    public User(String name, int age, String password) {
+        this.name = name;
+        this.age = age;
+        this.password = password;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
     public int getAge() {
@@ -29,8 +44,9 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "Name='" + Name + '\'' +
+                "name='" + name + '\'' +
                 ", age=" + age +
+                ", password='" + password + '\'' +
                 '}';
     }
 }

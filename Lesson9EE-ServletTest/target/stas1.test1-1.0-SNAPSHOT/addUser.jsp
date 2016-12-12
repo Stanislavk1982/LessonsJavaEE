@@ -2,19 +2,16 @@
 <%@ page import="java.util.Arrays" %><%--
   Created by IntelliJ IDEA.
   User: User
-  Date: 08.12.2016
-  Time: 19:29
+  Date: 12.12.2016
+  Time: 19:32
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>Title2</title>
+    <title>Add User</title>
 </head>
-<body>
-My first web page
-<c:out value="jstl out test1"/>
+
 <%
     List<String> userNamesList = Arrays
             .asList("name1", "name2", "name3", "name4", "name5");
@@ -23,22 +20,13 @@ My first web page
 
 %>
 
-<table border="3">
-    <tr>
-        <th> User Name</th>
-    </tr>
+<body>
 
-    <c:forEach var="usrName" items="${userNamesList1}">
-
-        <tr>
-            <td>
-                >>>>>>>> ${usrName}
-            </td>
-        </tr>
-
-    </c:forEach>
-
-</table>
-<a href="addUser.jsp" >add_user_link</a>
+    <form method="post" action="<%=request.getContextPath()%>/users">
+        <input name="login_ui" type="text" value=""/>
+        <input name="age_ui" type="text" value=""/>
+        <input name="password_ui" type="text" value=""/>
+        <input type="submit" value="add user"/>
+    </form>
 </body>
 </html>
