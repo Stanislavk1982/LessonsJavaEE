@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Lesson9EE-ServletTest:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="stas1.test1-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Lesson9EE-ServletTest:war exploded" />
+    </root>
+  </artifact>
+</component>
