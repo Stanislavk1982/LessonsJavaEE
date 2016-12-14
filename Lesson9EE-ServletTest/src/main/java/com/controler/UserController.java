@@ -8,6 +8,7 @@ import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -16,6 +17,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
+@WebServlet(urlPatterns = "/users")
 public class UserController extends HttpServlet {
 
     @Autowired
@@ -29,7 +31,13 @@ public class UserController extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doPost(req, resp);
+        String login = req.getParameter("login_ui");
+        String password = req.getParameter("password_ui");
+        String age = req.getParameter("age_ui");
+
+        User user = new User(login,Integer.valueOf(age),password);
+        List<User> users = userService.addUser(user);
+        resp.getWriter().print(Arrays.toString(users.toArray()));
     }
 
 

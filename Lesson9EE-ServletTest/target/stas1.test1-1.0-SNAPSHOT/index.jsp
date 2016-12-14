@@ -39,5 +39,6 @@ My first web page
     </c:forEach>
 
 </table>
+<a href="addUser.jsp" >add_user_link</a>
 </body>
 </html>

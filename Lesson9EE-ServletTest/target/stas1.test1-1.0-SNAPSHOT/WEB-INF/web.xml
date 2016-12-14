@@ -17,13 +17,24 @@
 
 
 
-    <servlet>
-        <servlet-name>userManagerController</servlet-name>
-        <servlet-class>com.controler.UserController</servlet-class>
-    </servlet>
+    <!--<servlet>-->
+        <!--<servlet-name>userManagerController</servlet-name>-->
+        <!--<servlet-class>com.controler.UserController</servlet-class>-->
+    <!--</servlet>-->
 
-    <servlet-mapping>
-        <servlet-name>userManagerController</servlet-name>
-        <url-pattern>/users</url-pattern>
-    </servlet-mapping>
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>userManagerController</servlet-name>-->
+        <!--<url-pattern>/users</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+    <!--<filter>-->
+        <!--<filter-name>authFilter</filter-name>-->
+        <!--<filter-class>com.filters.AuthFilter</filter-class>-->
+    <!--</filter>-->
+
+
+    <!--<filter-mapping>-->
+        <!--<filter-name>authFilter</filter-name>-->
+        <!--<url-pattern>/users</url-pattern>-->
+    <!--</filter-mapping>-->
 </web-app>
