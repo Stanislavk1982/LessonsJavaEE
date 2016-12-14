@@ -34,12 +34,15 @@ public class CorrectInputFilter implements Filter {
         if (StringUtils.isNotEmpty(login) && StringUtils.isNotEmpty(password)
                 && StringUtils.isNotEmpty(age) && StringUtils.isNotEmpty(phone)
                 && StringUtils.isNotEmpty(email) && StringUtils.isNotEmpty(adres)) {
-            if (correctAge(age) && correctPhone(phone) && correctEmail(email)) {
+            //if (correctAge(age) && correctPhone(phone) && correctEmail(email)) {
+            if (validateByPattern(PatternParameters.VALIDATION_EMAIL.toString(), email)
+                    && validateByPattern(PatternParameters.VALIDATION_AGE.toString(), age)
+                    && validateByPattern(PatternParameters.VALIDATION_PHONE.toString(), phone)) {
 
                 chain.doFilter(req, resp);
 
             } else {
-                errorMsg(resp,"Error age or phone or email");
+                errorMsg(resp, "Error age or phone or email");
             }
 
 
@@ -73,6 +76,12 @@ public class CorrectInputFilter implements Filter {
     private boolean correctAge(String age) {
         Pattern pattern = Pattern.compile("[1-9]{1,1}[0-9]{0,1}");
         Matcher matcher = pattern.matcher(age);
+        return matcher.matches();
+    }
+
+    private boolean validateByPattern(String patterns, String value) {
+        Pattern pattern = Pattern.compile(patterns);
+        Matcher matcher = pattern.matcher(value);
         return matcher.matches();
     }
 
