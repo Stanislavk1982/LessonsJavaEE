@@ -14,6 +14,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @WebFilter(urlPatterns = "/users/*")
 public class CorrectInputFilter implements Filter {
@@ -32,8 +34,14 @@ public class CorrectInputFilter implements Filter {
         if (StringUtils.isNotEmpty(login) && StringUtils.isNotEmpty(password)
                 && StringUtils.isNotEmpty(age) && StringUtils.isNotEmpty(phone)
                 && StringUtils.isNotEmpty(email) && StringUtils.isNotEmpty(adres)) {
+            if (correctAge(age) && correctPhone(phone) && correctEmail(email)) {
 
-            chain.doFilter(req, resp);
+                chain.doFilter(req, resp);
+
+            } else {
+                errorMsg(resp,"Error age or phone or email");
+            }
+
 
         } else {
 
@@ -49,6 +57,24 @@ public class CorrectInputFilter implements Filter {
         writer.flush();
     }
 
+
+    private boolean correctEmail(String email) {
+        Pattern pattern = Pattern.compile("\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*\\.\\w{2,4}");
+        Matcher matcher = pattern.matcher(email);
+        return matcher.matches();
+    }
+
+    private boolean correctPhone(String phone) {
+        Pattern pattern = Pattern.compile("[+]{1,1}[3]{1,1}[8]{1,1}[0]{1,1}[1-9]{1,1}[0-9]{8,8}");
+        Matcher matcher = pattern.matcher(phone);
+        return matcher.matches();
+    }
+
+    private boolean correctAge(String age) {
+        Pattern pattern = Pattern.compile("[1-9]{1,1}[0-9]{0,1}");
+        Matcher matcher = pattern.matcher(age);
+        return matcher.matches();
+    }
 
     public void destroy() {
 
