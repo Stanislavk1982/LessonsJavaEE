@@ -2,10 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="461e0fd9-3312-41cf-96f4-b9706f2f2a6c" name="Default" comment="">
+<<<<<<< HEAD
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/calculatorTest/Calculator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/com_test2/UserManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/com_test2/model/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/com_test2/repo/UserRepo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/com_test2/repo/UserRepoImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/com_test2/repo/UserRepoImpl2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/com_test2/service/UserService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/com_test2/service/UserServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/stas-1.0-SNAPSHOT.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/test-classes/CalculatorTest/CalculatorFunctionTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/test-classes/CalculatorTest/ParametersCalculatorTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/test-classes/JunitCoreRunTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/test-classes/custom_runner/CustomRunListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/test-classes/custom_runner/CustomRunner.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/test-classes/suite/CalculatorTestSuite.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/test-classes/suite/UserSuiteTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/test-classes/user_service/UserServiceTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/test-classes/user_service/UserServiceTest2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/reflection/Role.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/reflection/UserRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/java/calculatorTest/Calculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/java/com_test2/UserManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/java/com_test2/model/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/java/com_test2/repo/UserRepo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/java/com_test2/repo/UserRepoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/java/com_test2/repo/UserRepoImpl2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/java/com_test2/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/java/com_test2/service/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/resources/spring-anotation-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/test/java/CalculatorTest/CalculatorFunctionTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/test/java/CalculatorTest/ParametersCalculatorTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/test/java/JunitCoreRunTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/test/java/custom_runner/CustomRunListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/test/java/custom_runner/CustomRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/test/java/suite/CalculatorTestSuite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/test/java/suite/UserSuiteTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/test/java/user_service/UserServiceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/src/test/java/user_service/UserServiceTest2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/spring-anotation-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/maven-archiver/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/surefire-reports/CalculatorTest.CalculatorFunctionTest.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/surefire-reports/TEST-CalculatorTest.CalculatorFunctionTest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/surefire-reports/TEST-suite.UserSuiteTest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/surefire-reports/TEST-user_service.UserServiceTest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/surefire-reports/suite.UserSuiteTest.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lesson6EE/target/surefire-reports/user_service.UserServiceTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson6EE/target/classes/com_test/service/UserServiceImpl.class" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/com_test/service/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson4EE/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lesson4EE/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/reflection/User.java" afterPath="$PROJECT_DIR$/src/main/java/reflection/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/reflection/UserSystemManager.java" afterPath="$PROJECT_DIR$/src/main/java/reflection/UserSystemManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson6EE/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lesson6EE/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson6EE/Lesson6EE.iml" afterPath="$PROJECT_DIR$/../Lesson6EE/Lesson6EE.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson6EE/pom.xml" afterPath="$PROJECT_DIR$/../Lesson6EE/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson6EE/src/main/java/com_test/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/java/com_test/service/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson6EE/src/main/resources/spring-context.xml" afterPath="$PROJECT_DIR$/../Lesson6EE/src/main/resources/spring-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson6EE/target/classes/spring-context.xml" afterPath="$PROJECT_DIR$/../Lesson6EE/target/classes/spring-context.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/reflection/UserAnatation.java" afterPath="$PROJECT_DIR$/src/main/java/reflection/UserRoleAnatation.java" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/classes/com/controler/UserController.class" afterPath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/classes/com/controler/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/stas1.test1-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/stas1.test1-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/stas1.test1-1.0-SNAPSHOT/WEB-INF/classes/com/controler/UserController.class" afterPath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/stas1.test1-1.0-SNAPSHOT/WEB-INF/classes/com/controler/UserController.class" />
+>>>>>>> c0dd3d26e15c1e2f229568facc2e2a59a4d8a8b0
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson4EE/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lesson4EE/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson6EE/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lesson6EE/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson9EE-ServletTest/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lesson9EE-ServletTest/.idea/workspace.xml" />
+<<<<<<< HEAD
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson9EE-ServletTest/src/main/java/com/controler/UserController.java" afterPath="$PROJECT_DIR$/../Lesson9EE-ServletTest/src/main/java/com/controler/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/stas1.test1-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/stas1.test1-1.0-SNAPSHOT/WEB-INF/web.xml" />
+
+>>>>>>> c0dd3d26e15c1e2f229568facc2e2a59a4d8a8b0
     </list>
     <ignored path="Lesson5EE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -136,8 +216,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -183,38 +263,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lesson5EE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lesson5EE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lesson5EE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lesson5EE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -230,6 +278,17 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+=======
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> fd8a5f50532fda88616cb1b07fb714d4ba14185f
+      <pane id="Scratches" />
+>>>>>>> c0dd3d26e15c1e2f229568facc2e2a59a4d8a8b0
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,9 +297,13 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+>>>>>>> fd8a5f50532fda88616cb1b07fb714d4ba14185f
   </component>
   <component name="RunManager" selected="Application.UserSystemManager">
     <configuration default="false" name="UserSystemManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -689,18 +752,37 @@
       <updated>1479747430142</updated>
       <workItem from="1479747432622" duration="5230000" />
       <workItem from="1480350126438" duration="3668000" />
+<<<<<<< HEAD
+      <workItem from="1481145333554" duration="639000" />
+=======
       <workItem from="1481220408388" duration="624000" />
+<<<<<<< HEAD
       <workItem from="1481557348540" duration="2001000" />
       <workItem from="1481821672469" duration="85000" />
+=======
+>>>>>>> fd8a5f50532fda88616cb1b07fb714d4ba14185f
+>>>>>>> c0dd3d26e15c1e2f229568facc2e2a59a4d8a8b0
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="11608000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="9537000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+=======
+    <option name="totallyTimeSpent" value="9522000" />
+>>>>>>> c0dd3d26e15c1e2f229568facc2e2a59a4d8a8b0
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="false" />
+>>>>>>> fd8a5f50532fda88616cb1b07fb714d4ba14185f
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -716,7 +798,15 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26285347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+<<<<<<< HEAD
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25586355" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25642672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> fd8a5f50532fda88616cb1b07fb714d4ba14185f
+>>>>>>> c0dd3d26e15c1e2f229568facc2e2a59a4d8a8b0
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -777,6 +867,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+<<<<<<< HEAD
+=======
           <folding />
         </state>
       </provider>
@@ -929,26 +1021,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="33" />
+>>>>>>> fd8a5f50532fda88616cb1b07fb714d4ba14185f
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/reflection/UserSystemManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/reflection/UserRoleAnatation.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="119">
           <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="31" />
           <folding />
+=======
+        <state relative-caret-position="85">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> c0dd3d26e15c1e2f229568facc2e2a59a4d8a8b0
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/reflection/Role.java">
+=======
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/annotation/RetentionPolicy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -964,16 +1068,29 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/Class.java">
+>>>>>>> fd8a5f50532fda88616cb1b07fb714d4ba14185f
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="28016">
           <caret line="1648" column="28" lean-forward="false" selection-start-line="1648" selection-start-column="28" selection-end-line="1648" selection-end-column="28" />
+=======
+        <state relative-caret-position="119">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+>>>>>>> c0dd3d26e15c1e2f229568facc2e2a59a4d8a8b0
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/Object.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/reflection/UserRole.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="663">
           <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> c0dd3d26e15c1e2f229568facc2e2a59a4d8a8b0
         </state>
       </provider>
     </entry>
@@ -985,49 +1102,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/Class.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/reflection/User.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="26537">
           <caret line="1648" column="28" lean-forward="false" selection-start-line="1648" selection-start-column="28" selection-end-line="1648" selection-end-column="28" />
+=======
+        <state relative-caret-position="459">
+          <caret line="37" column="38" lean-forward="false" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+          <folding />
+>>>>>>> c0dd3d26e15c1e2f229568facc2e2a59a4d8a8b0
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/reflect/Constructor.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/Override.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/reflection/UserSystemManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="191" column="15" lean-forward="false" selection-start-line="191" selection-start-column="15" selection-end-line="191" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/annotation/RetentionPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="55" column="11" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="113" column="31" lean-forward="false" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/Override.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/reflection/UserRoleAnatation.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="119">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+=======
+        <state relative-caret-position="528">
+          <caret line="55" column="11" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="11" />
+>>>>>>> fd8a5f50532fda88616cb1b07fb714d4ba14185f
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/annotation/RetentionPolicy.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/String.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/Class.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/Object.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="17">
+          <caret line="113" column="31" lean-forward="false" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="31" />
+=======
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+>>>>>>> c0dd3d26e15c1e2f229568facc2e2a59a4d8a8b0
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/Class.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/reflect/Constructor.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/annotation/RetentionPolicy.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/String.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/Object.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/Override.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/reflection/UserSystemManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="151">
+          <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+=======
+        <state relative-caret-position="204">
+          <caret line="12" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+>>>>>>> c0dd3d26e15c1e2f229568facc2e2a59a4d8a8b0
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/reflection/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/reflection/UserRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> fd8a5f50532fda88616cb1b07fb714d4ba14185f
     <entry file="file://$PROJECT_DIR$/src/main/java/reflection/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1036,7 +1202,13 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/reflection/UserSystemManager.java">
+=======
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/reflection/User.java">
+>>>>>>> c0dd3d26e15c1e2f229568facc2e2a59a4d8a8b0
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
           <caret line="69" column="2" lean-forward="false" selection-start-line="69" selection-start-column="2" selection-end-line="69" selection-end-column="2" />
@@ -1060,7 +1232,12 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/reflection/UserRole.java">
+=======
+>>>>>>> fd8a5f50532fda88616cb1b07fb714d4ba14185f
+    <entry file="file://$PROJECT_DIR$/src/main/java/reflection/UserRoleAnatation.java">
+>>>>>>> c0dd3d26e15c1e2f229568facc2e2a59a4d8a8b0
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -1068,6 +1245,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
   </component>
   <component name="masterDetails">
     <states>
@@ -1155,5 +1334,6 @@
         </settings>
       </state>
     </states>
+>>>>>>> fd8a5f50532fda88616cb1b07fb714d4ba14185f
   </component>
 </project>

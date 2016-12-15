@@ -10,7 +10,11 @@
     </bean>
 
     <bean name="userRepo1" class="com_test.repo.UserRepoImpl"/>
+<<<<<<< HEAD
+    <bean name="userService" autowire="byType" class="com_test.service.UserServiceImpl"/>
+=======
     <!--&lt;!&ndash;<bean name="userRepo2" class="com_test.repo.UserRepoImpl2"/>&ndash;&gt;-->
     <!--<bean name="userService" autowire="byName" class="com_test.service.UserServiceImpl"/>-->
+>>>>>>> 5c64126ffa5674fc4116db0440144396463a91ea
 
 </beans>

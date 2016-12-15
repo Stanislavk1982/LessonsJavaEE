@@ -34,7 +34,11 @@ public class UserController extends HttpServlet {
         String login = req.getParameter("login_ui");
         String password = req.getParameter("password_ui");
         String age = req.getParameter("age_ui");
-        User user = new User(login,Integer.valueOf(age),password);
+        String phone = req.getParameter("phone_ui");
+        String email = req.getParameter("email_ui");
+        String adres = req.getParameter("adres_ui");
+
+        User user = new User(login,Integer.valueOf(age),password,phone,email,adres);
         List<User> users = userService.addUser(user);
         resp.getWriter().print(Arrays.toString(users.toArray()));
     }

@@ -26,6 +26,9 @@
         <input name="login_ui" type="text" value=""/>
         <input name="age_ui" type="text" value=""/>
         <input name="password_ui" type="text" value=""/>
+        <input name="phone_ui" type="text" value=""/>
+        <input name="email_ui" type="text" value=""/>
+        <input name="adres_ui" type="text" value=""/>
         <input type="submit" value="add user"/>
     </form>
 </body>

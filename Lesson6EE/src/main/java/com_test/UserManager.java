@@ -20,8 +20,8 @@ public class UserManager {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml");
         UserService userService = context.getBean("userService", UserService.class);
         UserRepo userRepo1 = context.getBean("userRepo1", UserRepo.class);
-        System.out.println(userService);
-        System.out.println(userRepo1);
+//        System.out.println(userService);
+//        System.out.println(userRepo1);
 
         List<User> allUsers = userService.getAllUsers();
         for (User user : allUsers) {
