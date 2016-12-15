@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="124fa74f-753b-47d0-8fbe-17977afae495" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/classes/com/controler/UserController.class" afterPath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/classes/com/controler/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/stas1.test1-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/stas1.test1-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/stas1.test1-1.0-SNAPSHOT/WEB-INF/classes/com/controler/UserController.class" afterPath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/stas1.test1-1.0-SNAPSHOT/WEB-INF/classes/com/controler/UserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson5EE/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lesson5EE/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson6EE/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lesson6EE/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson9EE-ServletTest/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lesson9EE-ServletTest/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson9EE-ServletTest/src/main/java/com/controler/UserController.java" afterPath="$PROJECT_DIR$/../Lesson9EE-ServletTest/src/main/java/com/controler/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/stas1.test1-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../Lesson9EE-ServletTest/target/stas1.test1-1.0-SNAPSHOT/WEB-INF/web.xml" />
     </list>
     <ignored path="Lesson4EE.iws" />
     <ignored path=".idea/workspace.xml" />
