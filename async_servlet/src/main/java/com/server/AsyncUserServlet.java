@@ -23,7 +23,9 @@ public class AsyncUserServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
         AsyncContext asyncContext = req.startAsync(req, resp);
+        asyncContext.setTimeout(Integer.MAX_VALUE);
         executorService.submit(new UserTask(asyncContext));
 
     }

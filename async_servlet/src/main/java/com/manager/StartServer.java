@@ -1,5 +1,6 @@
 package com.manager;
 
+import com.server.AsyncUserServlet;
 import com.server.UserServlet;
 import org.eclipse.jetty.server.Connector;
 import org.eclipse.jetty.server.Server;
@@ -18,7 +19,7 @@ public class StartServer {
         ServletContextHandler servletContextHandler = new ServletContextHandler();
         servletContextHandler.setContextPath("/");
         servletContextHandler.addServlet(UserServlet.class, "/users");
-        servletContextHandler.addServlet(UserServlet.class, "/usersAsync");
+        servletContextHandler.addServlet(AsyncUserServlet.class, "/usersAsync");
 
         server.setHandler(servletContextHandler);
 
