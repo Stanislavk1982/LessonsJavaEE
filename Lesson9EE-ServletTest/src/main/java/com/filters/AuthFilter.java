@@ -14,7 +14,7 @@ import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.Properties;
 
-@WebFilter(urlPatterns = "/users/*")
+@WebFilter(urlPatterns = "/usersAsync1/*")
 public class AuthFilter implements Filter {
     public void destroy() {
     }

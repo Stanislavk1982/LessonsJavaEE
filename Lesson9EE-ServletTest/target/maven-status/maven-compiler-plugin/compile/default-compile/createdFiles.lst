@@ -1,9 +1,11 @@
-com\dao\UserDaoImpl.class
 com\filters\CorrectInputFilter.class
 com\dao\UserDao.class
 com\controler\UserController.class
+com\manager\StartServer.class
 com\model\User.class
 com\service\UserServiceImpl.class
+com\service\UserListener.class
+com\tasks\UserTask.class
 com\filters\AuthFilter.class
 com\filters\PatternParameters.class
 com\service\UserService.class

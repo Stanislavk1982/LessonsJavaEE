@@ -7,8 +7,8 @@
           <element id="module-output" name="Lesson9EE-ServletTest" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
-          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:3.0.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.0.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.0.6.RELEASE" />
@@ -19,7 +19,12 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.0.6.RELEASE" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.0" />
-          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-server:9.3.12.v20160915" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-http:9.3.12.v20160915" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-io:9.3.12.v20160915" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-servlet:9.3.12.v20160915" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-security:9.3.12.v20160915" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-util:9.3.12.v20160915" />
         </element>
       </element>
       <element id="directory" name="META-INF">
