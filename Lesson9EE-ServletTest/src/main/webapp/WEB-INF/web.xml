@@ -5,7 +5,7 @@
 		  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          version="3.0">
 
-    <context-param>
+<context-param>
         <param-name>applicationContext</param-name>
         <param-value>/WEB-INF/applicationContext.xml</param-value>
     </context-param>
@@ -32,15 +32,15 @@
         <filter-class>com.filters.AuthFilter</filter-class>
     </filter>
 
-    <filter>
-        <filter-name>correctInputFilter</filter-name>
-        <filter-class>com.filters.CorrectInputFilter</filter-class>
-    </filter>
+    <!--<filter>-->
+        <!--<filter-name>correctInputFilter</filter-name>-->
+        <!--<filter-class>com.filters.CorrectInputFilter</filter-class>-->
+    <!--</filter>-->
 
-    <filter-mapping>
-        <filter-name>correctInputFilter</filter-name>
-        <url-pattern>/users</url-pattern>
-    </filter-mapping>
+    <!--<filter-mapping>-->
+        <!--<filter-name>correctInputFilter</filter-name>-->
+        <!--<url-pattern>/users</url-pattern>-->
+    <!--</filter-mapping>-->
 
     <filter-mapping>
         <filter-name>authFilter</filter-name>
