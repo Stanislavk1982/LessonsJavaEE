@@ -7,7 +7,7 @@
           <element id="module-output" name="jpa-spring.test" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.0.5" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.15" />
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.2.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.2.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:3.2.7.RELEASE" />

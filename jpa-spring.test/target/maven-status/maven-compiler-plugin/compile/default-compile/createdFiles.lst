@@ -1,1 +1,4 @@
+com\models\UsersEntity.class
 com\controller\UserController.class
+com\models\CompanyEntity.class
+com\dao\UserDAO.class
