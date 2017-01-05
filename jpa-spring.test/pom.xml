@@ -12,6 +12,16 @@
     <packaging>war</packaging>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <!-- https://mvnrepository.com/artifact/com.googlecode.flyway/flyway-maven-plugin -->
+        <!-- https://mvnrepository.com/artifact/com.googlecode.flyway/flyway-core -->
+        <dependency>
+            <groupId>com.googlecode.flyway</groupId>
+            <artifactId>flyway-core</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+
+
+
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>

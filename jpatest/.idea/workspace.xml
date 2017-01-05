@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10d4b489-a16d-41dc-8dc8-a9d45c12496c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson3EE/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Lesson3EE/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson3EE/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lesson3EE/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lesson9EE-ServletTest/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lesson9EE-ServletTest/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/models/UsersEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/models/UsersEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jpa-spring.test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../jpa-spring.test/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />

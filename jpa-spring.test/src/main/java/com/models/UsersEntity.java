@@ -4,6 +4,8 @@ import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -12,6 +14,8 @@ public class UsersEntity {
     private int id;
     private String name;
     private String surname;
+    private CompanyEntity companyEntity;
+
 
     @Id
     @Column(name = "id")
@@ -21,6 +25,16 @@ public class UsersEntity {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "company_id", referencedColumnName = "id")
+    public CompanyEntity getCompanyEntity() {
+        return companyEntity;
+    }
+
+    public void setCompanyEntity(CompanyEntity companyEntity) {
+        this.companyEntity = companyEntity;
     }
 
     @Basic
@@ -71,6 +85,7 @@ public class UsersEntity {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
+                ", companyEntity=" + companyEntity +
                 '}';
     }
 }

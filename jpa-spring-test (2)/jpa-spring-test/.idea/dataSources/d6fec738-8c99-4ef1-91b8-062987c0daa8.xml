@@ -1,0 +1,55 @@
+<dataSource name="MySQL - spring_jpa_test@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="spring_jpa_test">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="information_schema" />
+    <schema id="3" name="mysql" />
+    <schema id="4" name="performance_schema" />
+    <schema id="5" name="test" />
+    <schema id="6" name="test_db" />
+    <table id="7" parent="1" name="company" />
+    <table id="8" parent="1" name="users" />
+    <column id="9" parent="7" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="10" parent="7" name="description">
+      <data-type>varchar(35)|0</data-type>
+    </column>
+    <key id="11" parent="7" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="12" parent="8" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="13" parent="8" name="name">
+      <data-type>varchar(25)|0</data-type>
+    </column>
+    <column id="14" parent="8" name="surname">
+      <data-type>varchar(35)|0</data-type>
+    </column>
+    <column id="15" parent="8" name="company_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <index id="16" parent="8" name="company_id">
+      <columns>company_id</columns>
+      <desc-columns />
+    </index>
+    <key id="17" parent="8" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="18" parent="8" name="users_ibfk_1">
+      <columns>company_id</columns>
+      <ref-key>~.company.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+  </database-model>
+</dataSource>
