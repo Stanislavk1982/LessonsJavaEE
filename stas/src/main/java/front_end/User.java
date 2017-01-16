@@ -38,4 +38,9 @@ public class User {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public void merge(User newUser) {
+        this.name=newUser.getName();
+        this.age=newUser.getAge();
+    }
 }
