@@ -1,9 +1,12 @@
 package front_end;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class User {
 
     private int id;
     private String name;
+    @JsonProperty(value = "age_test")
     private int age;
 
     public User() {
