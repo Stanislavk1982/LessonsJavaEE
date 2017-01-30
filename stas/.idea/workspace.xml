@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e54ff731-cce7-4046-99e8-94dd603e1961" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/nullPointer.jsp" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../jpa-spring.test/target/classes/META-INF/persistence.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../jpa-spring.test/target/classes/com/controller/UserController.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../jpa-spring.test/target/classes/com/dao/UserDAO.class" afterPath="" />
@@ -53,20 +52,13 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../jpa-spring.test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../jpa-spring.test/target/tmp/jsp/org/apache/jsp/WEB_002dINF/pages/users_jsp.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../jpa-spring.test/target/tmp/jsp/org/apache/jsp/WEB_002dINF/pages/users_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/pages/user_005fpage_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/pages/user_005fpage_jsp.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/front_end/User.class" afterPath="$PROJECT_DIR$/target/classes/front_end/User.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/pages/nullPointer_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/pages/nullPointer_jsp.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stas-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/stas-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jpa-spring.test/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../jpa-spring.test/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jpa-spring.test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../jpa-spring.test/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lesson17JSandWeb/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../lesson17JSandWeb/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/front_end/User.java" afterPath="$PROJECT_DIR$/src/main/java/front_end/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/front_end/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/front_end/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user_page.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user_page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stas.iml" afterPath="$PROJECT_DIR$/stas.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -80,6 +72,14 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -97,20 +97,38 @@
       <file leaf-file-name="SimpleMappingExceptionResolver.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.7.RELEASE/spring-webmvc-3.2.7.RELEASE-sources.jar!/org/springframework/web/servlet/handler/SimpleMappingExceptionResolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="340">
               <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="43" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#13987#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#2018#2035#0" expanded="false" />
+                <element signature="e#3023#3024#0" expanded="false" />
+                <element signature="e#3063#3064#0" expanded="false" />
+                <element signature="e#3417#3418#0" expanded="false" />
+                <element signature="e#3468#3469#0" expanded="false" />
+                <element signature="e#3672#3673#0" expanded="false" />
+                <element signature="e#3719#3720#0" expanded="false" />
+                <element signature="e#4697#4698#0" expanded="false" />
+                <element signature="e#4746#4747#0" expanded="false" />
+                <element signature="e#4944#4945#0" expanded="false" />
+                <element signature="e#4998#4999#0" expanded="false" />
+                <element signature="e#5805#5806#0" expanded="false" />
+                <element signature="e#5854#5855#0" expanded="false" />
+                <element signature="e#6208#6209#0" expanded="false" />
+                <element signature="e#6259#6260#0" expanded="false" />
+                <element signature="e#10573#10574#0" expanded="false" />
+                <element signature="e#10631#10632#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -126,19 +144,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/front_end/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="136">
               <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding>
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,12 +157,9 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/front_end/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
+            <state relative-caret-position="272">
               <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#595#601#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,9 +167,16 @@
       <file leaf-file-name="InvocableHandlerMethod.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.7.RELEASE/spring-web-3.2.7.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
+            <state relative-caret-position="1802">
               <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#9688#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#2442#2443#0" expanded="false" />
+                <element signature="e#2468#2469#0" expanded="false" />
+                <element signature="e#2594#2595#0" expanded="false" />
+                <element signature="e#2621#2622#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,9 +184,18 @@
       <file leaf-file-name="ServletInvocableHandlerMethod.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.7.RELEASE/spring-webmvc-3.2.7.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
+            <state relative-caret-position="1411">
               <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#7256#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#5351#5352#0" expanded="false" />
+                <element signature="e#5391#5392#0" expanded="false" />
+                <element signature="e#5500#5501#0" expanded="false" />
+                <element signature="e#5536#5537#0" expanded="false" />
+                <element signature="e#6216#6524#0" expanded="false" />
+                <element signature="e#6523#6524#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,12 +203,43 @@
       <file leaf-file-name="StringUtils.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.2.7.RELEASE/spring-core-3.2.7.RELEASE-sources.jar!/org/springframework/util/StringUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="2057">
               <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
               <folding>
-                <element signature="e#3581#3582#0" expanded="true" />
-                <element signature="e#3628#3629#0" expanded="true" />
-                <element signature="e#5523#5524#0" expanded="true" />
+                <element signature="e#0#38836#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#2960#2961#0" expanded="false" />
+                <element signature="e#3005#3006#0" expanded="false" />
+                <element signature="e#3581#3582#0" expanded="false" />
+                <element signature="e#3628#3629#0" expanded="false" />
+                <element signature="e#4000#4001#0" expanded="false" />
+                <element signature="e#4043#4044#0" expanded="false" />
+                <element signature="e#6419#6420#0" expanded="false" />
+                <element signature="e#6471#6472#0" expanded="false" />
+                <element signature="e#13073#13074#0" expanded="false" />
+                <element signature="e#13117#13118#0" expanded="false" />
+                <element signature="e#14186#14187#0" expanded="false" />
+                <element signature="e#14238#14239#0" expanded="false" />
+                <element signature="e#14559#14560#0" expanded="false" />
+                <element signature="e#14624#14625#0" expanded="false" />
+                <element signature="e#14856#14857#0" expanded="false" />
+                <element signature="e#14899#14900#0" expanded="false" />
+                <element signature="e#15618#15619#0" expanded="false" />
+                <element signature="e#15667#15668#0" expanded="false" />
+                <element signature="e#16006#16007#0" expanded="false" />
+                <element signature="e#16056#16057#0" expanded="false" />
+                <element signature="e#20059#20067#0" expanded="false" />
+                <element signature="e#21053#21054#0" expanded="false" />
+                <element signature="e#21108#21109#0" expanded="false" />
+                <element signature="e#25464#25472#0" expanded="false" />
+                <element signature="e#27790#27798#0" expanded="false" />
+                <element signature="e#33035#33043#0" expanded="false" />
+                <element signature="e#34994#35002#0" expanded="false" />
+                <element signature="e#35818#35819#0" expanded="false" />
+                <element signature="e#35868#35869#0" expanded="false" />
+                <element signature="e#36164#36172#0" expanded="false" />
+                <element signature="e#38785#38786#0" expanded="false" />
+                <element signature="e#38831#38832#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -193,10 +248,45 @@
       <file leaf-file-name="Jdk14Logger.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar!/org/apache/commons/logging/impl/Jdk14Logger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="3434">
               <caret line="245" column="0" lean-forward="false" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
               <folding>
-                <element signature="e#7032#7033#0" expanded="true" />
+                <element signature="e#0#8497#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3658#3659#0" expanded="false" />
+                <element signature="e#3720#3721#0" expanded="false" />
+                <element signature="e#4012#4013#0" expanded="false" />
+                <element signature="e#4079#4080#0" expanded="false" />
+                <element signature="e#4302#4303#0" expanded="false" />
+                <element signature="e#4366#4367#0" expanded="false" />
+                <element signature="e#4660#4661#0" expanded="false" />
+                <element signature="e#4729#4730#0" expanded="false" />
+                <element signature="e#4952#4953#0" expanded="false" />
+                <element signature="e#5016#5017#0" expanded="false" />
+                <element signature="e#5310#5311#0" expanded="false" />
+                <element signature="e#5379#5380#0" expanded="false" />
+                <element signature="e#5819#5820#0" expanded="false" />
+                <element signature="e#5881#5882#0" expanded="false" />
+                <element signature="e#6171#6172#0" expanded="false" />
+                <element signature="e#6238#6239#0" expanded="false" />
+                <element signature="e#6337#6338#0" expanded="false" />
+                <element signature="e#6396#6397#0" expanded="false" />
+                <element signature="e#6495#6496#0" expanded="false" />
+                <element signature="e#6556#6557#0" expanded="false" />
+                <element signature="e#6655#6656#0" expanded="false" />
+                <element signature="e#6716#6717#0" expanded="false" />
+                <element signature="e#6813#6814#0" expanded="false" />
+                <element signature="e#6872#6873#0" expanded="false" />
+                <element signature="e#7129#7130#0" expanded="false" />
+                <element signature="e#7191#7192#0" expanded="false" />
+                <element signature="e#7414#7415#0" expanded="false" />
+                <element signature="e#7478#7479#0" expanded="false" />
+                <element signature="e#7772#7773#0" expanded="false" />
+                <element signature="e#7841#7842#0" expanded="false" />
+                <element signature="e#8063#8064#0" expanded="false" />
+                <element signature="e#8128#8129#0" expanded="false" />
+                <element signature="e#8421#8422#0" expanded="false" />
+                <element signature="e#8491#8492#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -282,7 +372,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -411,7 +501,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -425,6 +515,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;Oracle" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -877,16 +968,19 @@
       <workItem from="1484245451541" duration="2834000" />
       <workItem from="1484586589028" duration="6562000" />
       <workItem from="1484845981782" duration="28000" />
-      <workItem from="1484846219326" duration="6180000" />
+      <workItem from="1484846219326" duration="6516000" />
+      <workItem from="1485102808432" duration="657000" />
+      <workItem from="1485707534904" duration="1481000" />
+      <workItem from="1485789057910" duration="879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15604000" />
+    <option name="totallyTimeSpent" value="18957000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -895,7 +989,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -903,15 +997,14 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2596401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2692802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -919,6 +1012,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -978,11 +1072,342 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/nullPointer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/front_end/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/front_end/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.7.RELEASE/spring-web-3.2.7.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9688#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2442#2443#0" expanded="false" />
+            <element signature="e#2468#2469#0" expanded="false" />
+            <element signature="e#2594#2595#0" expanded="false" />
+            <element signature="e#2621#2622#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.7.RELEASE/spring-webmvc-3.2.7.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#7256#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#5351#5352#0" expanded="false" />
+            <element signature="e#5391#5392#0" expanded="false" />
+            <element signature="e#5500#5501#0" expanded="false" />
+            <element signature="e#5536#5537#0" expanded="false" />
+            <element signature="e#6216#6524#0" expanded="false" />
+            <element signature="e#6523#6524#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.2.7.RELEASE/spring-core-3.2.7.RELEASE-sources.jar!/org/springframework/util/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38836#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2960#2961#0" expanded="false" />
+            <element signature="e#3005#3006#0" expanded="false" />
+            <element signature="e#3581#3582#0" expanded="false" />
+            <element signature="e#3628#3629#0" expanded="false" />
+            <element signature="e#4000#4001#0" expanded="false" />
+            <element signature="e#4043#4044#0" expanded="false" />
+            <element signature="e#6419#6420#0" expanded="false" />
+            <element signature="e#6471#6472#0" expanded="false" />
+            <element signature="e#13073#13074#0" expanded="false" />
+            <element signature="e#13117#13118#0" expanded="false" />
+            <element signature="e#14186#14187#0" expanded="false" />
+            <element signature="e#14238#14239#0" expanded="false" />
+            <element signature="e#14559#14560#0" expanded="false" />
+            <element signature="e#14624#14625#0" expanded="false" />
+            <element signature="e#14856#14857#0" expanded="false" />
+            <element signature="e#14899#14900#0" expanded="false" />
+            <element signature="e#15618#15619#0" expanded="false" />
+            <element signature="e#15667#15668#0" expanded="false" />
+            <element signature="e#16006#16007#0" expanded="false" />
+            <element signature="e#16056#16057#0" expanded="false" />
+            <element signature="e#20059#20067#0" expanded="false" />
+            <element signature="e#21053#21054#0" expanded="false" />
+            <element signature="e#21108#21109#0" expanded="false" />
+            <element signature="e#25464#25472#0" expanded="false" />
+            <element signature="e#27790#27798#0" expanded="false" />
+            <element signature="e#33035#33043#0" expanded="false" />
+            <element signature="e#34994#35002#0" expanded="false" />
+            <element signature="e#35818#35819#0" expanded="false" />
+            <element signature="e#35868#35869#0" expanded="false" />
+            <element signature="e#36164#36172#0" expanded="false" />
+            <element signature="e#38785#38786#0" expanded="false" />
+            <element signature="e#38831#38832#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar!/org/apache/commons/logging/impl/Jdk14Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3434">
+          <caret line="245" column="0" lean-forward="false" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#8497#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3658#3659#0" expanded="false" />
+            <element signature="e#3720#3721#0" expanded="false" />
+            <element signature="e#4012#4013#0" expanded="false" />
+            <element signature="e#4079#4080#0" expanded="false" />
+            <element signature="e#4302#4303#0" expanded="false" />
+            <element signature="e#4366#4367#0" expanded="false" />
+            <element signature="e#4660#4661#0" expanded="false" />
+            <element signature="e#4729#4730#0" expanded="false" />
+            <element signature="e#4952#4953#0" expanded="false" />
+            <element signature="e#5016#5017#0" expanded="false" />
+            <element signature="e#5310#5311#0" expanded="false" />
+            <element signature="e#5379#5380#0" expanded="false" />
+            <element signature="e#5819#5820#0" expanded="false" />
+            <element signature="e#5881#5882#0" expanded="false" />
+            <element signature="e#6171#6172#0" expanded="false" />
+            <element signature="e#6238#6239#0" expanded="false" />
+            <element signature="e#6337#6338#0" expanded="false" />
+            <element signature="e#6396#6397#0" expanded="false" />
+            <element signature="e#6495#6496#0" expanded="false" />
+            <element signature="e#6556#6557#0" expanded="false" />
+            <element signature="e#6655#6656#0" expanded="false" />
+            <element signature="e#6716#6717#0" expanded="false" />
+            <element signature="e#6813#6814#0" expanded="false" />
+            <element signature="e#6872#6873#0" expanded="false" />
+            <element signature="e#7129#7130#0" expanded="false" />
+            <element signature="e#7191#7192#0" expanded="false" />
+            <element signature="e#7414#7415#0" expanded="false" />
+            <element signature="e#7478#7479#0" expanded="false" />
+            <element signature="e#7772#7773#0" expanded="false" />
+            <element signature="e#7841#7842#0" expanded="false" />
+            <element signature="e#8063#8064#0" expanded="false" />
+            <element signature="e#8128#8129#0" expanded="false" />
+            <element signature="e#8421#8422#0" expanded="false" />
+            <element signature="e#8491#8492#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user_page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="6" lean-forward="false" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.7.RELEASE/spring-webmvc-3.2.7.RELEASE-sources.jar!/org/springframework/web/servlet/handler/SimpleMappingExceptionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#13987#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2018#2035#0" expanded="false" />
+            <element signature="e#3023#3024#0" expanded="false" />
+            <element signature="e#3063#3064#0" expanded="false" />
+            <element signature="e#3417#3418#0" expanded="false" />
+            <element signature="e#3468#3469#0" expanded="false" />
+            <element signature="e#3672#3673#0" expanded="false" />
+            <element signature="e#3719#3720#0" expanded="false" />
+            <element signature="e#4697#4698#0" expanded="false" />
+            <element signature="e#4746#4747#0" expanded="false" />
+            <element signature="e#4944#4945#0" expanded="false" />
+            <element signature="e#4998#4999#0" expanded="false" />
+            <element signature="e#5805#5806#0" expanded="false" />
+            <element signature="e#5854#5855#0" expanded="false" />
+            <element signature="e#6208#6209#0" expanded="false" />
+            <element signature="e#6259#6260#0" expanded="false" />
+            <element signature="e#10573#10574#0" expanded="false" />
+            <element signature="e#10631#10632#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/nullPointer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/front_end/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/front_end/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.7.RELEASE/spring-web-3.2.7.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9688#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2442#2443#0" expanded="false" />
+            <element signature="e#2468#2469#0" expanded="false" />
+            <element signature="e#2594#2595#0" expanded="false" />
+            <element signature="e#2621#2622#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.7.RELEASE/spring-webmvc-3.2.7.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#7256#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#5351#5352#0" expanded="false" />
+            <element signature="e#5391#5392#0" expanded="false" />
+            <element signature="e#5500#5501#0" expanded="false" />
+            <element signature="e#5536#5537#0" expanded="false" />
+            <element signature="e#6216#6524#0" expanded="false" />
+            <element signature="e#6523#6524#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.2.7.RELEASE/spring-core-3.2.7.RELEASE-sources.jar!/org/springframework/util/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38836#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2960#2961#0" expanded="false" />
+            <element signature="e#3005#3006#0" expanded="false" />
+            <element signature="e#3581#3582#0" expanded="false" />
+            <element signature="e#3628#3629#0" expanded="false" />
+            <element signature="e#4000#4001#0" expanded="false" />
+            <element signature="e#4043#4044#0" expanded="false" />
+            <element signature="e#6419#6420#0" expanded="false" />
+            <element signature="e#6471#6472#0" expanded="false" />
+            <element signature="e#13073#13074#0" expanded="false" />
+            <element signature="e#13117#13118#0" expanded="false" />
+            <element signature="e#14186#14187#0" expanded="false" />
+            <element signature="e#14238#14239#0" expanded="false" />
+            <element signature="e#14559#14560#0" expanded="false" />
+            <element signature="e#14624#14625#0" expanded="false" />
+            <element signature="e#14856#14857#0" expanded="false" />
+            <element signature="e#14899#14900#0" expanded="false" />
+            <element signature="e#15618#15619#0" expanded="false" />
+            <element signature="e#15667#15668#0" expanded="false" />
+            <element signature="e#16006#16007#0" expanded="false" />
+            <element signature="e#16056#16057#0" expanded="false" />
+            <element signature="e#20059#20067#0" expanded="false" />
+            <element signature="e#21053#21054#0" expanded="false" />
+            <element signature="e#21108#21109#0" expanded="false" />
+            <element signature="e#25464#25472#0" expanded="false" />
+            <element signature="e#27790#27798#0" expanded="false" />
+            <element signature="e#33035#33043#0" expanded="false" />
+            <element signature="e#34994#35002#0" expanded="false" />
+            <element signature="e#35818#35819#0" expanded="false" />
+            <element signature="e#35868#35869#0" expanded="false" />
+            <element signature="e#36164#36172#0" expanded="false" />
+            <element signature="e#38785#38786#0" expanded="false" />
+            <element signature="e#38831#38832#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar!/org/apache/commons/logging/impl/Jdk14Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3434">
+          <caret line="245" column="0" lean-forward="false" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#8497#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3658#3659#0" expanded="false" />
+            <element signature="e#3720#3721#0" expanded="false" />
+            <element signature="e#4012#4013#0" expanded="false" />
+            <element signature="e#4079#4080#0" expanded="false" />
+            <element signature="e#4302#4303#0" expanded="false" />
+            <element signature="e#4366#4367#0" expanded="false" />
+            <element signature="e#4660#4661#0" expanded="false" />
+            <element signature="e#4729#4730#0" expanded="false" />
+            <element signature="e#4952#4953#0" expanded="false" />
+            <element signature="e#5016#5017#0" expanded="false" />
+            <element signature="e#5310#5311#0" expanded="false" />
+            <element signature="e#5379#5380#0" expanded="false" />
+            <element signature="e#5819#5820#0" expanded="false" />
+            <element signature="e#5881#5882#0" expanded="false" />
+            <element signature="e#6171#6172#0" expanded="false" />
+            <element signature="e#6238#6239#0" expanded="false" />
+            <element signature="e#6337#6338#0" expanded="false" />
+            <element signature="e#6396#6397#0" expanded="false" />
+            <element signature="e#6495#6496#0" expanded="false" />
+            <element signature="e#6556#6557#0" expanded="false" />
+            <element signature="e#6655#6656#0" expanded="false" />
+            <element signature="e#6716#6717#0" expanded="false" />
+            <element signature="e#6813#6814#0" expanded="false" />
+            <element signature="e#6872#6873#0" expanded="false" />
+            <element signature="e#7129#7130#0" expanded="false" />
+            <element signature="e#7191#7192#0" expanded="false" />
+            <element signature="e#7414#7415#0" expanded="false" />
+            <element signature="e#7478#7479#0" expanded="false" />
+            <element signature="e#7772#7773#0" expanded="false" />
+            <element signature="e#7841#7842#0" expanded="false" />
+            <element signature="e#8063#8064#0" expanded="false" />
+            <element signature="e#8128#8129#0" expanded="false" />
+            <element signature="e#8421#8422#0" expanded="false" />
+            <element signature="e#8491#8492#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
           <caret line="74" column="28" lean-forward="false" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,14 +1439,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="43" column="34" lean-forward="false" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-          <folding>
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,10 +1447,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#595#601#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,7 +1455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,7 +1462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
           <caret line="74" column="28" lean-forward="false" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1080,14 +1493,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="34" lean-forward="false" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-          <folding>
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,10 +1501,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#595#601#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,7 +1509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +1516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
           <caret line="74" column="28" lean-forward="false" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1146,14 +1547,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding>
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1161,10 +1555,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#595#601#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,7 +1563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1188,7 +1578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
           <caret line="74" column="28" lean-forward="false" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1196,45 +1585,126 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar!/org/apache/commons/logging/impl/Jdk14Logger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="3434">
           <caret line="245" column="0" lean-forward="false" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
           <folding>
-            <element signature="e#7032#7033#0" expanded="true" />
+            <element signature="e#0#8497#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3658#3659#0" expanded="false" />
+            <element signature="e#3720#3721#0" expanded="false" />
+            <element signature="e#4012#4013#0" expanded="false" />
+            <element signature="e#4079#4080#0" expanded="false" />
+            <element signature="e#4302#4303#0" expanded="false" />
+            <element signature="e#4366#4367#0" expanded="false" />
+            <element signature="e#4660#4661#0" expanded="false" />
+            <element signature="e#4729#4730#0" expanded="false" />
+            <element signature="e#4952#4953#0" expanded="false" />
+            <element signature="e#5016#5017#0" expanded="false" />
+            <element signature="e#5310#5311#0" expanded="false" />
+            <element signature="e#5379#5380#0" expanded="false" />
+            <element signature="e#5819#5820#0" expanded="false" />
+            <element signature="e#5881#5882#0" expanded="false" />
+            <element signature="e#6171#6172#0" expanded="false" />
+            <element signature="e#6238#6239#0" expanded="false" />
+            <element signature="e#6337#6338#0" expanded="false" />
+            <element signature="e#6396#6397#0" expanded="false" />
+            <element signature="e#6495#6496#0" expanded="false" />
+            <element signature="e#6556#6557#0" expanded="false" />
+            <element signature="e#6655#6656#0" expanded="false" />
+            <element signature="e#6716#6717#0" expanded="false" />
+            <element signature="e#6813#6814#0" expanded="false" />
+            <element signature="e#6872#6873#0" expanded="false" />
+            <element signature="e#7129#7130#0" expanded="false" />
+            <element signature="e#7191#7192#0" expanded="false" />
+            <element signature="e#7414#7415#0" expanded="false" />
+            <element signature="e#7478#7479#0" expanded="false" />
+            <element signature="e#7772#7773#0" expanded="false" />
+            <element signature="e#7841#7842#0" expanded="false" />
+            <element signature="e#8063#8064#0" expanded="false" />
+            <element signature="e#8128#8129#0" expanded="false" />
+            <element signature="e#8421#8422#0" expanded="false" />
+            <element signature="e#8491#8492#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.7.RELEASE/spring-web-3.2.7.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
+        <state relative-caret-position="1802">
           <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#9688#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2442#2443#0" expanded="false" />
+            <element signature="e#2468#2469#0" expanded="false" />
+            <element signature="e#2594#2595#0" expanded="false" />
+            <element signature="e#2621#2622#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.2.7.RELEASE/spring-core-3.2.7.RELEASE-sources.jar!/org/springframework/util/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="2057">
           <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
           <folding>
-            <element signature="e#3581#3582#0" expanded="true" />
-            <element signature="e#3628#3629#0" expanded="true" />
-            <element signature="e#5523#5524#0" expanded="true" />
+            <element signature="e#0#38836#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2960#2961#0" expanded="false" />
+            <element signature="e#3005#3006#0" expanded="false" />
+            <element signature="e#3581#3582#0" expanded="false" />
+            <element signature="e#3628#3629#0" expanded="false" />
+            <element signature="e#4000#4001#0" expanded="false" />
+            <element signature="e#4043#4044#0" expanded="false" />
+            <element signature="e#6419#6420#0" expanded="false" />
+            <element signature="e#6471#6472#0" expanded="false" />
+            <element signature="e#13073#13074#0" expanded="false" />
+            <element signature="e#13117#13118#0" expanded="false" />
+            <element signature="e#14186#14187#0" expanded="false" />
+            <element signature="e#14238#14239#0" expanded="false" />
+            <element signature="e#14559#14560#0" expanded="false" />
+            <element signature="e#14624#14625#0" expanded="false" />
+            <element signature="e#14856#14857#0" expanded="false" />
+            <element signature="e#14899#14900#0" expanded="false" />
+            <element signature="e#15618#15619#0" expanded="false" />
+            <element signature="e#15667#15668#0" expanded="false" />
+            <element signature="e#16006#16007#0" expanded="false" />
+            <element signature="e#16056#16057#0" expanded="false" />
+            <element signature="e#20059#20067#0" expanded="false" />
+            <element signature="e#21053#21054#0" expanded="false" />
+            <element signature="e#21108#21109#0" expanded="false" />
+            <element signature="e#25464#25472#0" expanded="false" />
+            <element signature="e#27790#27798#0" expanded="false" />
+            <element signature="e#33035#33043#0" expanded="false" />
+            <element signature="e#34994#35002#0" expanded="false" />
+            <element signature="e#35818#35819#0" expanded="false" />
+            <element signature="e#35868#35869#0" expanded="false" />
+            <element signature="e#36164#36172#0" expanded="false" />
+            <element signature="e#38785#38786#0" expanded="false" />
+            <element signature="e#38831#38832#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.7.RELEASE/spring-webmvc-3.2.7.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
+        <state relative-caret-position="1411">
           <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#7256#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#5351#5352#0" expanded="false" />
+            <element signature="e#5391#5392#0" expanded="false" />
+            <element signature="e#5500#5501#0" expanded="false" />
+            <element signature="e#5536#5537#0" expanded="false" />
+            <element signature="e#6216#6524#0" expanded="false" />
+            <element signature="e#6523#6524#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1248,22 +1718,37 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.7.RELEASE/spring-webmvc-3.2.7.RELEASE-sources.jar!/org/springframework/web/servlet/handler/SimpleMappingExceptionResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="340">
           <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#13987#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2018#2035#0" expanded="false" />
+            <element signature="e#3023#3024#0" expanded="false" />
+            <element signature="e#3063#3064#0" expanded="false" />
+            <element signature="e#3417#3418#0" expanded="false" />
+            <element signature="e#3468#3469#0" expanded="false" />
+            <element signature="e#3672#3673#0" expanded="false" />
+            <element signature="e#3719#3720#0" expanded="false" />
+            <element signature="e#4697#4698#0" expanded="false" />
+            <element signature="e#4746#4747#0" expanded="false" />
+            <element signature="e#4944#4945#0" expanded="false" />
+            <element signature="e#4998#4999#0" expanded="false" />
+            <element signature="e#5805#5806#0" expanded="false" />
+            <element signature="e#5854#5855#0" expanded="false" />
+            <element signature="e#6208#6209#0" expanded="false" />
+            <element signature="e#6259#6260#0" expanded="false" />
+            <element signature="e#10573#10574#0" expanded="false" />
+            <element signature="e#10631#10632#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/front_end/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
+        <state relative-caret-position="272">
           <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#595#601#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1275,25 +1760,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/front_end/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/front_end/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding />
         </state>
       </provider>
